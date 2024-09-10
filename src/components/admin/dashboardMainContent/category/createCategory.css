@@ -1,0 +1,27 @@
+.categoryForm{
+    margin-top: 12px;
+}
+
+
+.categoryForm input{
+    background-color: transparent;
+    width: 50%;
+    color: white;
+    outline: none;
+    border: 1px solid var(--primaryGreenColor);
+    padding: 8px;
+    border-radius: 4px;
+    color: var(--primaryGreenColor) ;
+
+}
+
+.categoryForm input::placeholder {
+    color: var(--primaryGreenColor) ;
+    background-color: transparent;
+}
+
+
+.custom-table {
+    background-color: transparent;
+    /* Add more custom styles here */
+}

@@ -1,0 +1,201 @@
+.createProductForm{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.createProductForm .input, .select{
+    width: 70%;
+    padding: 12px;
+    outline: none;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid var(--secondaryBlueColor);
+    color: var(--whiteColor);
+    margin-bottom: 12px;
+}
+.textEditor{
+  color: black;
+}
+.createProductForm select option{
+    color: black;
+}
+
+
+.createProductForm label{
+    color: var(--whiteColor);
+}
+
+
+
+.createProductDetails{
+    display: flex;
+    flex-direction: column;    
+}
+
+
+
+.createButtonContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    cursor: pointer;
+
+}
+
+.discardBtn{
+    border: 1px solid #fc185a;
+    color: #fc185a;
+    padding: 10px;
+    border-radius: 4px;
+}
+.discardBtn:hover{
+    background-color: #fc185a;
+    color: var(--whiteColor);
+}
+.saveDraftBtn{
+    border: 1px solid var(--primaryGreenColor);
+    color: var(--primaryGreenColor);
+    padding: 10px;
+    border-radius: 4px;
+}
+.saveDraftBtn:hover{
+    background-color: var(--primaryGreenColor);
+    color: var(--whiteColor);
+}
+.publishedtBtn{
+    border: 1px solid var(--secondaryBlueColor);
+    color: var(--secondaryBlueColor);
+    padding: 10px;
+    border-radius: 4px;
+}
+.publishedtBtn:hover{
+    background-color: var(--secondaryBlueColor);
+    color: var(--whiteColor);
+}
+
+.createIcon{
+    font-size: 30px;
+}
+.createText{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+/* 
+  
+  .createProductForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productDetails,
+  .productOrganize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .productDetails label,
+  .productOrganize label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .productDetails input[type="text"],
+  .productDetails input[type="file"],
+  .productOrganize select,
+  .productOrganize input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+
+  }
+  
+  .productDetails input[type="text"]:focus,
+  .productDetails input[type="file"]:focus,
+  .productOrganize select:focus,
+  .productOrganize input[type="number"]:focus {
+    border-color: var(--primaryGreenColor);
+    outline: none;
+    box-shadow: 0 0 5px rgba(61, 197, 71, 0.5);
+  }
+  
+
+
+
+  .createButtonContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .discardBtn,
+  .saveDraftBtn,
+  .publishedtBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .discardBtn {
+    border: 1px solid #fc185a;
+    color: #fc185a;
+  }
+  
+  .discardBtn:hover {
+    background-color: #fc185a;
+    color: #fff;
+  }
+  
+  .saveDraftBtn {
+    border: 1px solid var(--primaryGreenColor);
+    color: var(--primaryGreenColor);
+  }
+  
+  .saveDraftBtn:hover {
+    background-color: var(--primaryGreenColor);
+    color: #fff;
+  }
+  
+  .publishedtBtn {
+    border: 1px solid var(--secondaryBlueColor);
+    color: var(--secondaryBlueColor);
+  }
+  
+  .publishedtBtn:hover {
+    background-color: var(--secondaryBlueColor);
+    color: #fff;
+  }
+  
+  .createIcon {
+    font-size: 30px;
+    margin-right: 5px;
+  }
+  
+  .createText {
+    font-size: 18px;
+    font-weight: 700;
+  }
+   */

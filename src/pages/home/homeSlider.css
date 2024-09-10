@@ -1,0 +1,25 @@
+/* Container styling for the home slider */
+.homeSliderContainer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Slider items styling */
+.sliderItem {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sliderItem img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive adjustments for slider */
+@media screen and (max-width: 768px) {
+  .homeSliderContainer {
+    height: auto; 
+  }
+}

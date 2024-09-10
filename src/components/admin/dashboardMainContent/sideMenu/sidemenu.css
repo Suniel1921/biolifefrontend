@@ -1,0 +1,59 @@
+.sideMenu {
+  color: #fff;
+  /* background-color: #212529; */
+
+}
+
+.sideMenu h3 {
+  margin-bottom: 10px;
+}
+
+.dropdownContainer {
+  margin-top: 10px;
+}
+
+.dropdownContainer h3 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.dropdownTitle {
+  margin-left: 5px; 
+}
+
+.dropdownContent {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+  opacity: 0;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.dropdownContent.open {
+  max-height: 500px;
+  opacity: 1;
+}
+
+.dropdownContent p {
+  margin: 5px 0;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.icon {
+  transition: transform 0.3s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.subItemIcon {
+  margin-right: 8px;
+  color: #fff;
+}

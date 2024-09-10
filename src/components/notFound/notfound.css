@@ -1,0 +1,51 @@
+.notFoundContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.notFoundContent {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.notFoundImage {
+    width: 50%;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.notFoundTitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.notFoundText {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.backButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+    background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

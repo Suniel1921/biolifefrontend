@@ -1,0 +1,183 @@
+ .productDetailsContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.productDetails {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productDetailsLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productDetailsMainImg {
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.childimg img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.childimg img.active {
+    border: 2px solid var(--secondaryBlueColor);
+}
+
+.productDetailsDataRight {
+    flex: 1;
+    padding: 20px;
+}
+
+.productHeading {
+    font-size: 1.2em;
+    color: #555;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.priceContainer {
+    display: flex;
+    align-items: baseline;
+}
+
+.salePrice {
+    font-size: 1.5em;
+    color: var(--redTextColor);
+    margin-right: 10px;
+}
+
+.realPrice {
+    font-size: 1.2em;
+    color: var(--darkTextColor);
+    text-decoration: line-through;
+}
+
+.ratingImg {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.productBrand {
+    font-size: 1em;
+    color: var(--darkTextColor);
+    margin-bottom: 10px;
+}
+
+.productDescription {
+    font-size: 1em;
+    color: var(--darkTextColor);
+}
+
+.cartBtn {
+    padding: 10px 34px;
+    border: none;
+    background: var(--secondaryBlueColor);
+    color: var(--whiteColor);
+    border-radius: 3px;
+}
+
+.relatedProductsContainer{
+    margin-top: 34px;
+}
+
+.tabContainer {
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabContainer .container {
+    display: flex;
+    padding: 10px 0;
+}
+
+.tabContainer button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.tabContainer button.active {
+    border-bottom: 2px solid var(--secondaryBlueColor);
+    color: var(--secondaryBlueColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for reviews and rating stars */
+.reviewsContainer, .reviewFormContainer {
+    margin: 20px 0;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.reviewRating {
+    color: #f39c12;
+    font-size: 1.2em;
+}
+
+.ratingInput {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.ratingInput span {
+    font-size: 2em;
+    color: #ccc;
+}
+
+.ratingInput .activeStar {
+    color: #f39c12;
+}
+
+.reviewFormContainer textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.reviewFormContainer button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reviewFormContainer button:hover {
+    background-color: #0056b3;
+}

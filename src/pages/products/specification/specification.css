@@ -1,0 +1,39 @@
+
+
+.specification {
+    margin-top: 20px;
+  }
+  
+  .specificationContainer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .specificationContainer h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .specificationTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .specificationTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .specificationTable td:first-child {
+    width: 30%;
+    font-weight: bold;
+  }
+  
+  .specificationTable td:last-child {
+    width: 70%;
+  }
+  
+  /* Optional: Add more specific styling as needed */
+  

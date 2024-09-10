@@ -1,0 +1,125 @@
+ .categoryHeading{
+    margin-top: 20px;
+}
+
+.categoryList{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.categoyListImg{
+    width: 134px;
+    height: 134px;
+    object-fit: cover;
+}
+
+
+.categoryListName{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+} 
+
+
+
+
+
+
+.categoryListContainer {
+    position: relative;
+    overflow: hidden;
+}
+
+.categoryListWrapper {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    will-change: transform;
+}
+
+.categoryList {
+    display: flex;
+    gap: 1rem;
+}
+
+.categoryItem {
+    min-width: 150px;
+    margin-right: 1rem;
+}
+
+.categoryItem.skeleton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.categorySkeletonImg {
+    width: 134px;
+    height: 134px;
+    border-radius: 8px;
+}
+
+.categorySkeletonText {
+    width: 80%;
+    margin-top: 0.5rem;
+}
+
+.slideButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-size: 16px;
+}
+
+.slideButton.left {
+    left: 10px;
+}
+
+.slideButton.right {
+    right: 10px;
+}
+
+.slideButton:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.slideButton:focus {
+    outline: none;
+}
+
+.slideButton::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.slideButton.left::before {
+    border-width: 6px 10px 6px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+.slideButton.right::before {
+    border-width: 6px 0 6px 10px;
+    border-color: transparent transparent transparent #fff;
+}

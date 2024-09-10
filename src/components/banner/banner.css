@@ -1,0 +1,107 @@
+.custom-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: var(--sliderBGColor); */
+    background-color: #fef6e4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.custom-banner-content {
+    flex: 2;
+}
+
+.custom-banner-tags {
+    margin-bottom: 10px;
+}
+
+.custom-tag {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.custom-trend-products {
+    background-color: #5b4037;
+    color: #fff;
+}
+
+.custom-promotion-prices {
+    background-color: #f2e5d5;
+    color: #5b4037;
+}
+
+.custom-banner-title {
+    font-size: 24px;
+    color: #5b4037;
+    margin-bottom: 10px;
+}
+
+.custom-banner-products {
+    font-size: 14px;
+    color: #5b4037;
+}
+
+.custom-banner-products span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.custom-banner-products i {
+    color: #5b4037;
+    margin-right: 5px;
+}
+
+.custom-banner-image {
+    flex: 1;
+    text-align: right;
+}
+
+.custom-banner-image img {
+    width: 100%;
+    border-radius: 10px;
+   position: relative;
+   top: 25px;
+}
+
+.custom-banner-button {
+    flex: 1;
+    text-align: right;
+}
+
+.custom-button {
+    display: inline-block;
+    background-color: #f2e5d5;
+    color: #5b4037;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.custom-button i {
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .custom-banner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .custom-banner-image {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .custom-banner-button {
+        text-align: center;
+        margin-top: 20px;
+    }
+}

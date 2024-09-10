@@ -1,0 +1,15 @@
+.star-rating {
+    display: flex;
+    cursor: pointer;
+}
+
+.star {
+    font-size: 24px;
+    color: #d3d3d3; /* Default star color */
+    transition: color 0.3s;
+    margin-right: 5px;
+}
+
+.star.filled {
+    color: #f5c518; /* Star color when filled */
+}

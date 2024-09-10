@@ -1,0 +1,25 @@
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 9px 40px 9px 10px;
+    border: 1px solid var(--grayDarkColor);
+    background-color: var(--grayDarkColor);
+    border-radius: 50px;
+    outline: none;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: var(--redTextColor);
+    font-size: 18px;
+    cursor: pointer;
+  }
+  

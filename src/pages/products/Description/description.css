@@ -1,0 +1,24 @@
+.description {
+    margin-top: 20px;
+}
+
+.descriptionContainer {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.descriptionContainer h3 {
+    margin-bottom: 10px;
+}
+
+.descriptionContainer h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.descriptionContainer p {
+    margin-bottom: 10px;
+    color: #555;
+}

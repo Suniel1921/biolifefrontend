@@ -1,0 +1,132 @@
+/* .trendingProduct{
+  background-color: #F4F4F4 ;
+  height: 85vh;
+  margin-bottom: 45px;
+} */
+
+
+.trendingCard{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.trendingHeading{
+  margin-bottom: 23px;
+  margin-top: 23px;
+  border-bottom: 1px solid var(--grayDarkColor);
+  padding: 12px;
+}
+
+/* .trendingPrice{
+  display: flex;
+} */
+
+.cardContainer{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 30vh;
+    
+}
+
+
+.cardContainer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+
+
+
+.trendingImg{
+  width: 50%;
+}
+
+
+.tredingCardDetails p {
+  margin: 0;
+  color: #888;
+}
+
+.tredingCardDetails h4 {
+  margin: 5px 0 10px;
+}
+
+
+.trendingPrice p:first-child {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.trendingPrice p.original-price {
+  text-decoration: line-through;
+  color: #999;
+}
+
+
+
+.cardContainer {
+  position: relative;
+}
+
+.trendingBadge {
+  position: absolute;
+  top: 10px;
+  right: 10px;   
+  background-color: #3dc547;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  z-index: 10; 
+}
+
+.trendingImg {
+  position: relative;
+}
+
+
+
+
+
+
+
+  @media screen and (max-width: 850px) {   
+    
+    .trendingCard{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5rem;
+    }
+
+    .cardContainer{
+      height: 50vh;
+        
+    }
+    
+  }
+  @media screen and (max-width: 650px) {   
+    
+    .trendingCard{
+      grid-template-columns: repeat(1, 1fr);
+      gap: 5rem;
+    }
+
+    .cardContainer{
+      height: 100vh;
+        
+    }
+    
+    
+  }
+
+
+  

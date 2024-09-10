@@ -1,0 +1,97 @@
+/* Container styling to ensure the navbar is centered and aligned */
+.navbarContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added to give a subtle shadow to the navbar */
+}
+
+
+/* Centering logo, search component, and nav links */
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center; /* Added to vertically center items */
+  padding: 12px 0; /* Adjusted padding for better spacing */
+  text-align: center; /* Added to center text inside the grid */
+}
+
+/* Centering the logo image */
+.logoImg {
+  width: 40%;
+  margin: 0 auto; /* Added to center the logo horizontally */
+}
+
+/* Centering the search component */
+.searchComponent {
+  text-align: center; /* Added to ensure the search bar is centered */
+}
+
+/* Nav links styling */
+.navlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Adjusted to vertically align the links */
+  gap: 2rem;
+  margin-left: 3rem;
+}
+
+.navlinks li {
+  list-style-type: none;
+}
+
+.navlinks li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+/* User initial styling */
+.user-initial {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Hamburger menu styling */
+.hamburgerMenu {
+  display: none;
+  font-size: 25px;
+  text-align: right; /* Added to align the hamburger menu to the right */
+}
+.cart-icon{
+  font-size: 20px;
+  color: black;
+}
+/* Media queries for responsive design */
+@media screen and (max-width: 850px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .logoImg {
+    width: 20vw;
+  }
+
+ 
+
+  .navlinks {
+    display: none;
+  }
+
+  .hamburgerMenu {
+    display: block; /* Display the hamburger menu on smaller screens */
+  }
+}
